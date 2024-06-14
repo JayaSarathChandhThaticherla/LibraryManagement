@@ -13,10 +13,7 @@ namespace LibraryManagement.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
+        [HttpGet]
         public IActionResult Login() { return View(); }
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
@@ -33,6 +30,7 @@ namespace LibraryManagement.Controllers
             }
                 return View(model);
         }
+        [HttpGet]
         public IActionResult Register()
         {
             return View();
@@ -51,7 +49,7 @@ namespace LibraryManagement.Controllers
                 };
                 _context.Add(obj);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Register", "Login");
+                return RedirectToAction("Login", "Login");
 
 
             }
