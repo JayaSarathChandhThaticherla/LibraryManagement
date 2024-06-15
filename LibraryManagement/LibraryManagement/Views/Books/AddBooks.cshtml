@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model LibraryManagement.Models.AddBookModel
+
+<form method="post">
+    <div>
+        <label asp-for="BookName">
+
+        </label><br />
+        <input asp-for="BookName" />
+    </div>
+    <div>
+        <label asp-for="Author">
+
+        </label><br />
+        <input asp-for="Author" />
+    </div>
+    <div>
+        <label asp-for="Price">
+
+        </label><br />
+        <input asp-for="Price" />
+    </div>
+    <div>
+        <button type="submit">Add Book</button>
+    </div>
+</form>

@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{B942FCC2-B7A4-4789-8FF4-CEA22897ACFC}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Login/Login.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/UsersTable.cs">
     <Files>
-      <File FileName="Program.cs" />
-      <File FileName="Models/AppDbContext.cs" />
-      <File FileName="Controllers/LoginController.cs" Line="35" Column="10" />
-      <File FileName="Models/UsersTable.cs" Line="20" Column="6" />
-      <File FileName="Views/Login/Login.cshtml" Line="19" Column="11" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Models/AppDbContext.cs" Line="1" Column="1" />
+      <File FileName="Controllers/LoginController.cs" Line="51" Column="51" />
+      <File FileName="Models/UsersTable.cs" Line="21" Column="2" />
+      <File FileName="Views/Login/Login.cshtml" Line="20" Column="8" />
+      <File FileName="Views/Login/Register.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +16,8 @@
           <Node name="LibraryManagement">
             <Node name="LibraryManagement">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Login" expanded="True">
-                  <Node name="Login.cshtml" selected="True" />
-                </Node>
+              <Node name="Models" expanded="True">
+                <Node name="UsersTable.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -28,8 +25,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
