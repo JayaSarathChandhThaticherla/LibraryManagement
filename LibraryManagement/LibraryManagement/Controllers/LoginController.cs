@@ -20,12 +20,12 @@ namespace LibraryManagement.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = await _context.UsersTables.FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
+                var user = await _context.UsersTable.FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
 
                 if (user != null)
                 {
                     // User found, redirect to dashboard or other protected area
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("AddBooks", "Books");
                 }
             }
                 return View(model);
