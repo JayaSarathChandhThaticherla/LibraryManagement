@@ -16,6 +16,7 @@
             <th>Author</th>
             <th>Price</th>
             <th>Edit</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -27,7 +28,10 @@
                 <td>@book.Author</td>
                 <td>@book.Price</td>
                 <td>
-                    @Html.ActionLink("Edit","EditBook", "Books", new { id = book.ID })
+                    @Html.ActionLink("Edit", "EditBook", "Books", new { id = book.ID })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "DeleteBook", "Books", new { id = book.ID })
                 </td>
 
             </tr>
