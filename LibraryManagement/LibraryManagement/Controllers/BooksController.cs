@@ -50,6 +50,28 @@ namespace LibraryManagement.Controllers
             }
             return View(model);
         }
+        [HttpGet]
+        public IActionResult EditBook(int id)
+        {
+            var book = _context.BooksTable.Find(id);
+            return View(book);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditBook(BooksTable model)
+        {
+            if (ModelState.IsValid)
+            {
+                var obj = _context.BooksTable.Find(model.ID);
+                obj.Author = model.Author;
+                obj.BookName = model.BookName;
+                obj.Price = model.Price;
+                _context.Update(obj);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("GetBooks","Books");
+            }
+            return View(model);
+        }
+
     }
 }
 
