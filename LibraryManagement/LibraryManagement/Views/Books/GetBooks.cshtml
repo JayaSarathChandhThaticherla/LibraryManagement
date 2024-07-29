@@ -15,6 +15,8 @@
             <th>Book Name</th>
             <th>Author</th>
             <th>Price</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -25,7 +27,22 @@
                 <td>@book.BookName</td>
                 <td>@book.Author</td>
                 <td>@book.Price</td>
+                <td>
+                    @Html.ActionLink("Edit", "EditBook", "Books", new { id = book.ID })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "DeleteBook", "Books", new { id = book.ID })
+                </td>
+
             </tr>
         }
+        
     </tbody>
+    
 </table>
+
+<div style="color:aqua  ">
+    <button type="submit">
+        @Html.ActionLink("Add Books", "AddBooks", "Books")
+    </button>
+</div>

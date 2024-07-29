@@ -1,0 +1,31 @@
+﻿@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+@model LibraryManagement.Models.BooksTable
+
+<h1>Edit Book</h1>
+
+<form asp-action="EditBook">
+    <div class="form-group">
+        <label asp-for="BookName"></label><br />
+        <input asp-for="BookName" /><br />
+    </div>
+    <div class="form-group">
+        <label asp-for="Author"></label><br />
+        <input asp-for="Author" /><br />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label><br />
+        <input asp-for="Price" /><br />
+    </div>
+   
+    <div class="form-group">
+        <input type="submit" value="Save" />
+    </div>
+</form>
+

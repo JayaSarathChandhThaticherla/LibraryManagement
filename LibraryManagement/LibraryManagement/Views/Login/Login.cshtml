@@ -9,12 +9,20 @@
     <div>
         <label asp-for="Email"></label><br />
         <input asp-for="Email" /><br />
+        <span asp-validation-for="Email"></span>
     </div>
     <div>
         <label asp-for="Password"></label><br />
         <input asp-for="Password" /><br />
+        <span asp-validation-for="Password"></span>
     </div>
     <div>
         <button type="Submit">Login</button>
+        <button type="submit">
+            @Html.ActionLink("New User", "Register", "Login")
+        </button>
     </div>
+    
+  
+
 </form>
