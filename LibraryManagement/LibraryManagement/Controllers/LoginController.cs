@@ -50,8 +50,6 @@ namespace LibraryManagement.Controllers
                 _context.Add(obj);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Login", "Login");
-
-
             }
             return View(model);
         }

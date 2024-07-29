@@ -76,7 +76,10 @@ namespace LibraryManagement.Controllers
         public async Task<ActionResult> DeleteBook(int id)
         {
             var obj = _context.BooksTable.Find(id);
-            _context.BooksTable.Remove(obj);
+            if (obj != null)
+            {
+                _context.BooksTable.Remove(obj);
+            }
             await _context.SaveChangesAsync();
             return RedirectToAction("GetBooks", "Books");
         }

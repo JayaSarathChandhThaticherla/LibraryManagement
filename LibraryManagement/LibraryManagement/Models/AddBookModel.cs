@@ -5,7 +5,7 @@ namespace LibraryManagement.Models
 {
     public class AddBookModel
     {
-        [Required]
+        [Required(ErrorMessage ="Please enter the Book Name")]
         public string BookName { get; set; }
         [Required]
         public string Author { get; set; }

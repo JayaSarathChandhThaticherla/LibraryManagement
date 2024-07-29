@@ -6,24 +6,28 @@
 
 @model LibraryManagement.Models.AddBookModel
 
+
 <form method="post">
-    <div>
+    <div style="color:green">
         <label asp-for="BookName">
 
         </label><br />
         <input asp-for="BookName" />
+        <span asp-validation-for="BookName"></span>
     </div>
     <div>
         <label asp-for="Author">
 
         </label><br />
         <input asp-for="Author" />
+        <span asp-validation-for="Author"></span>
     </div>
     <div>
         <label asp-for="Price">
 
         </label><br />
         <input asp-for="Price" />
+        <span asp-validation-for="Price"></span>
     </div>
     <div>
         <button type="submit">Add Book</button>
