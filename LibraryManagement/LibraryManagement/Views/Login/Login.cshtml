@@ -5,7 +5,7 @@
 }
 @model LibraryManagement.Models.LoginViewModel
 <div><h1>LOGIN</h1></div>
-<form method="post">
+<form asp-action="Login">
     <div>
         <label asp-for="Email"></label><br />
         <input asp-for="Email" /><br />
