@@ -33,6 +33,10 @@
         <input asp-for="Password" />
         <span asp-validation-for="Password"></span>
     </div>
-    <button type="submit">Register</button>
-
+    <div>
+        <button type="submit">Register</button>
+        <button type="submit">
+        @Html.ActionLink("Back", "Login", "Login")
+            </button>
+    </div>
 </form>
