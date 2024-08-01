@@ -9,7 +9,7 @@ namespace LibraryManagement.Models
 		public int ID { get; set; }
 		[Required]
 		public string BookName { get; set; }
-		[Required]
+        [Required(ErrorMessage = "Enter the Author Name")]
 		public string Author { get; set; }
 		[Required]
 		public int Price { get; set; }
