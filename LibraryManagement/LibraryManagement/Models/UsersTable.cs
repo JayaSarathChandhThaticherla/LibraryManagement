@@ -14,7 +14,7 @@ namespace LibraryManagement.Models
 
         [Required(ErrorMessage = "LastName is required.")]
         [StringLength(100, ErrorMessage = "LastName cannot be longer than 100 characters.")]
-        public string LastName { get; set; }
+        public string LastName { get; set; } 
 
         [Required(ErrorMessage = "Email is required.")]
         [EmailAddress(ErrorMessage = "Invalid Email Address.")]
