@@ -24,11 +24,18 @@ namespace LibraryManagement.Controllers
 
                 if (user != null)
                 {
-                    // User found, redirect to dashboard or other protected area
-                    return RedirectToAction("AddBooks", "Books");
+                    {
+                        // Create a session
+                        HttpContext.Session.SetString("Email", user.Email.ToString());
+                        // Redirect to home page or other desired page
+                        return RedirectToAction("GetBooks", "Books");
+                    }
                 }
             }
-                return View(model);
+            ModelState.AddModelError("", "Invalid email or password. Please try again.");
+
+
+            return View(model);
         }
         [HttpGet]
         public IActionResult Register()
@@ -52,6 +59,12 @@ namespace LibraryManagement.Controllers
                 return RedirectToAction("Login", "Login");
             }
             return View(model);
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login", "Login");
         }
 
     }

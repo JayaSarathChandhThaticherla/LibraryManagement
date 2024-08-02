@@ -24,17 +24,30 @@ namespace LibraryManagement.Controllers
         [HttpGet]
         public IActionResult GetBooks()
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+            
             var obj = _context.BooksTable.ToList();
             return View(obj);
         }
         [HttpGet]
         public IActionResult AddBooks()
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             return View();
         }
         [HttpPost]
         public async Task<IActionResult> AddBooks(AddBookModel model)
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             if (ModelState.IsValid)
             {
                 var obj = new BooksTable
@@ -53,12 +66,20 @@ namespace LibraryManagement.Controllers
         [HttpGet]
         public IActionResult EditBook(int id)
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             var book = _context.BooksTable.Find(id);
             return View(book);
         }
         [HttpPost]
         public async Task<IActionResult> EditBook(BooksTable model)
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             if (ModelState.IsValid)
             {
                 var obj = _context.BooksTable.Find(model.ID);
@@ -75,6 +96,10 @@ namespace LibraryManagement.Controllers
         
         public async Task<ActionResult> DeleteBook(int id)
         {
+            if (HttpContext.Session.GetString("Email") == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             var obj = _context.BooksTable.Find(id);
             if (obj != null)
             {
