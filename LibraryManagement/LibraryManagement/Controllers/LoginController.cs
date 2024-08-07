@@ -24,12 +24,12 @@ namespace LibraryManagement.Controllers
 
                 if (user != null)
                 {
-                    {
+                    
                         // Create a session
                         HttpContext.Session.SetString("Email", user.Email.ToString());
                         // Redirect to home page or other desired page
                         return RedirectToAction("GetBooks", "Books");
-                    }
+                    
                 }
             }
             ModelState.AddModelError("", "Invalid email or password. Please try again.");
