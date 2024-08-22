@@ -1,0 +1,29 @@
+﻿@model IEnumerable<LibraryManagement.Models.BooksTable>
+
+@using (Html.BeginForm("Search", "Books", FormMethod.Get))
+{
+    <input type="text" name="query" placeholder="Search by book name..." />
+    <input type="submit" value="Search" />
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.BookName</td>
+                <td>@book.Author</td>
+                <td>@book.Price</td>
+                <!-- Add more columns as needed -->
+            </tr>
+        }
+    </tbody>
+</table>

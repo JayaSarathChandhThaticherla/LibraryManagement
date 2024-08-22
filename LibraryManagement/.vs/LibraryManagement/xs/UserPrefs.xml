@@ -1,11 +1,24 @@
 ﻿<Properties StartupConfiguration="{38CF7461-6D3A-46A4-A666-03FD38F3FD26}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagement/Controllers/BooksController.cs">
     <Files>
-      <File FileName="LibraryManagement/Controllers/LoginController.cs" Line="29" Column="74" />
-      <File FileName="LibraryManagement/Controllers/BooksController.cs" Line="33" Column="53" />
-      <File FileName="LibraryManagement/Models/UsersTable.cs" Line="21" Column="23" />
+      <File FileName="LibraryManagement/Controllers/LoginController.cs" Line="15" Column="2" />
+      <File FileName="LibraryManagement/Controllers/BooksController.cs" Line="96" Column="4" />
+      <File FileName="LibraryManagement/Models/UsersTable.cs" />
+      <File FileName="LibraryManagement/Models/SearchBookName.cs" />
+      <File FileName="LibraryManagement/Models/RegisterViewModel.cs" />
+      <File FileName="LibraryManagement/Models/BooksTable.cs" />
+      <File FileName="LibraryManagement/Models/LoginViewModel.cs" />
+      <File FileName="LibraryManagement/Views/Books/Search.cshtml" />
+      <File FileName="LibraryManagement/Views/Books/EditBook.cshtml" />
+      <File FileName="LibraryManagement/Views/Books/AddBooks.cshtml" />
+      <File FileName="LibraryManagement/Views/Books/GetBooks.cshtml" />
+      <File FileName="LibraryManagement/Program.cs" />
+      <File FileName="LibraryManagement/appsettings.json" />
+      <File FileName="LibraryManagement/appsettings.Development.json" />
+      <File FileName=".vs/LibraryManagement/xs/project-cache/LibraryManagement-Debug.json" />
+      <File FileName=".vs/LibraryManagement/xs/UserPrefs.xml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +28,6 @@
               <Node name="Controllers" expanded="True">
                 <Node name="BooksController.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
@@ -30,14 +42,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="29" column="1" />
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/BooksController.cs" relfile="LibraryManagement/Controllers/BooksController.cs" line="42" column="1" />
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/BooksController.cs" relfile="LibraryManagement/Controllers/BooksController.cs" line="33" column="1" />
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="35" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

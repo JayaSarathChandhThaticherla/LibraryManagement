@@ -3,18 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LibraryManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace LibraryManagement.Controllers
 {
+    
     public class BooksController : Controller
     {
+
         private readonly AppDbContext _context;
         public BooksController(AppDbContext context)
-        {
+        { 
             _context = context;
+
         }
         // GET: /<controller>/
         public IActionResult Index()
@@ -28,14 +32,15 @@ namespace LibraryManagement.Controllers
             {
                 return RedirectToAction("Login", "Login");
             }
-            
+
+
             var obj = _context.BooksTable.ToList();
             return View(obj);
         }
         [HttpGet]
         public IActionResult AddBooks()
         {
-            if (HttpContext.Session.GetString("Email") == null)
+                if (HttpContext.Session.GetString("Email") == null)
             {
                 return RedirectToAction("Login", "Login");
             }
@@ -107,6 +112,17 @@ namespace LibraryManagement.Controllers
             }
             await _context.SaveChangesAsync();
             return RedirectToAction("GetBooks", "Books");
+        }
+
+
+        [HttpGet]
+        public ActionResult Search(string query)
+        {
+            var results = string.IsNullOrEmpty(query) ?
+                          _context.BooksTable.ToList() :
+                          _context.BooksTable.Where(b => b.BookName.Contains(query)).ToList();
+
+            return View("Search", results);
         }
 
     }

@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Books/AddBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvQWRkQm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Books/EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvRWRpdEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Books/GetBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvR2V0Qm9va3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Books/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Views/Login/Login.cshtml]
