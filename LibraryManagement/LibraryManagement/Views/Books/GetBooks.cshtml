@@ -5,6 +5,11 @@
 }
 
 @model IEnumerable<LibraryManagement.Models.BooksTable>
+@using (Html.BeginForm("Search", "Books", FormMethod.Get))
+{
+    <input type="text" name="query" placeholder="Search by book name..." />
+    <input type="submit" value="Search" />
+}
 
 <h1>List of Books</h1>
 
@@ -36,9 +41,9 @@
 
             </tr>
         }
-        
+
     </tbody>
-    
+
 </table>
 
 <div style="color:aqua  ">

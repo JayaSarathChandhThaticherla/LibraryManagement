@@ -1,11 +1,3 @@
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.csproj.AssemblyReference.cache
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.AssemblyInfoInputs.cache
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.AssemblyInfo.cs
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.csproj.CoreCompileInputs.cache
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.RazorAssemblyInfo.cache
-/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.RazorAssemblyInfo.cs
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/bin/Release/net7.0/appsettings.Development.json
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/bin/Release/net7.0/appsettings.json
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/bin/Release/net7.0/LibraryManagement.staticwebassets.runtime.json
@@ -17,6 +9,14 @@
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/bin/Release/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/bin/Release/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/bin/Release/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.csproj.AssemblyReference.cache
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.AssemblyInfoInputs.cache
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.AssemblyInfo.cs
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.csproj.CoreCompileInputs.cache
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.RazorAssemblyInfo.cache
+/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/LibraryManagement.RazorAssemblyInfo.cs
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/staticwebassets/msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/staticwebassets/msbuild.build.LibraryManagement.props
 /Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.LibraryManagement.props

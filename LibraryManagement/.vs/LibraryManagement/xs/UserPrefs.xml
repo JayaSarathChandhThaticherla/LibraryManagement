@@ -1,21 +1,38 @@
 ﻿<Properties StartupConfiguration="{38CF7461-6D3A-46A4-A666-03FD38F3FD26}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagement/Models/SearchBookName.cs">
     <Files>
-      <File FileName="LibraryManagement/Controllers/LoginController.cs" Line="29" Column="74" />
-      <File FileName="LibraryManagement/Controllers/BooksController.cs" Line="33" Column="53" />
-      <File FileName="LibraryManagement/Models/UsersTable.cs" Line="21" Column="23" />
+      <File FileName="LibraryManagement/Controllers/LoginController.cs" />
+      <File FileName="LibraryManagement/Models/AppDbContext.cs" />
+      <File FileName="LibraryManagement/Models/LoginViewModel.cs" />
+      <File FileName="LibraryManagement/Models/SearchBookName.cs" Line="11" Column="1" />
+      <File FileName="LibraryManagement/bin/Release/net7.0/LibraryManagement.pdb" />
+      <File FileName="LibraryManagement/Program.cs" />
+      <File FileName="LibraryManagement/Views/Shared/_Layout.cshtml" />
+      <File FileName="LibraryManagement/Controllers/BooksController.cs" Line="132" Column="95" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LibraryManagement" expanded="True">
+          <Node name="LibraryManagement">
             <Node name="LibraryManagement" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BooksController.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Microsoft.EntityFrameworkCore" expanded="True" />
+                  <Node name="Microsoft.EntityFrameworkCore.InMemory" expanded="True" />
+                </Node>
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Books" expanded="True" />
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
@@ -23,7 +40,6 @@
                   <Node name="bootstrap" expanded="True" />
                 </Node>
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,13 +47,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="29" column="1" />
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/BooksController.cs" relfile="LibraryManagement/Controllers/BooksController.cs" line="42" column="1" />
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/BooksController.cs" relfile="LibraryManagement/Controllers/BooksController.cs" line="33" column="1" />
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="35" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>
