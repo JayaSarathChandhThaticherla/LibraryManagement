@@ -8,10 +8,12 @@ namespace LibraryManagement.Controllers
 {
     public class LoginController : Controller
     {
+        private readonly ILogger<LoginController> _logger;
         private readonly AppDbContext _context;
-        public LoginController(AppDbContext context)
+        public LoginController(AppDbContext context, ILogger<LoginController> logger)
         {
             _context = context;
+            _logger = logger;
         }
         [HttpGet]
         public IActionResult Login() { return View(); }
@@ -32,6 +34,7 @@ namespace LibraryManagement.Controllers
                     
                 }
             }
+            _logger.LogInformation("Model State has failed");
             ModelState.AddModelError("", "Invalid email or password. Please try again.");
 
 

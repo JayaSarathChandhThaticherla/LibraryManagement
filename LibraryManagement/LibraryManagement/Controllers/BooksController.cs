@@ -13,11 +13,12 @@ namespace LibraryManagement.Controllers
     
     public class BooksController : Controller
     {
-
+        private readonly ILogger<BooksController> _logger;
         private readonly AppDbContext _context;
-        public BooksController(AppDbContext context)
+        public BooksController(AppDbContext context, ILogger<BooksController> logger)
         { 
             _context = context;
+            _logger = logger;
 
         }
         // GET: /<controller>/
@@ -42,6 +43,7 @@ namespace LibraryManagement.Controllers
         {
                 if (HttpContext.Session.GetString("Email") == null)
             {
+                _logger.LogWarning("User not authenticated. Redirecting to Login.");
                 return RedirectToAction("Login", "Login");
             }
             return View();
@@ -49,8 +51,10 @@ namespace LibraryManagement.Controllers
         [HttpPost]
         public async Task<IActionResult> AddBooks(AddBookModel model)
         {
+            _logger.LogInformation("AddBooks action started.");
             if (HttpContext.Session.GetString("Email") == null)
             {
+                _logger.LogWarning("User not authenticated. Redirecting to Login.");
                 return RedirectToAction("Login", "Login");
             }
             if (ModelState.IsValid)
@@ -65,6 +69,11 @@ namespace LibraryManagement.Controllers
                 _context.Add(obj);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("GetBooks","Books");
+            }
+            else
+            {
+                // Log an error message without an exception
+                _logger.LogError("Model state is invalid.");
             }
             return View(model);
         }
