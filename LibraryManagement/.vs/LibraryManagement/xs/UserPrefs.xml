@@ -1,46 +1,29 @@
 ﻿<Properties StartupConfiguration="{38CF7461-6D3A-46A4-A666-03FD38F3FD26}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="19" column="1" />
+      <Breakpoint file="/Users/sarathchandh/Documents/WebDev/LibraryManagement/LibraryManagement/LibraryManagement/Controllers/LoginController.cs" relfile="LibraryManagement/Controllers/LoginController.cs" line="21" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument=".vs/LibraryManagement/xs/UserPrefs.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.LibraryManagement PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryManagement/Controllers/LoginController.cs">
     <Files>
-      <File FileName="LibraryManagement/Controllers/LoginController.cs" Line="39" Column="1" />
-      <File FileName="LibraryManagement/Controllers/BooksController.cs" Line="90" Column="1" />
-      <File FileName="LibraryManagement/Models/UsersTable.cs" />
-      <File FileName="LibraryManagement/Models/SearchBookName.cs" />
-      <File FileName="LibraryManagement/Models/RegisterViewModel.cs" />
-      <File FileName="LibraryManagement/Models/BooksTable.cs" />
-      <File FileName="LibraryManagement/Models/LoginViewModel.cs" />
-      <File FileName="LibraryManagement/Views/Books/Search.cshtml" />
-      <File FileName="LibraryManagement/Views/Books/EditBook.cshtml" />
-      <File FileName="LibraryManagement/Views/Books/AddBooks.cshtml" />
-      <File FileName="LibraryManagement/Views/Books/GetBooks.cshtml" />
-      <File FileName="LibraryManagement/appsettings.json" />
-      <File FileName="LibraryManagement/appsettings.Development.json" />
-      <File FileName=".vs/LibraryManagement/xs/project-cache/LibraryManagement-Debug.json" />
-      <File FileName=".vs/LibraryManagement/xs/UserPrefs.xml" Line="1" Column="1" />
-      <File FileName="LibraryManagement/obj/Release/net7.0/LibraryManagement.csproj.AssemblyReference.cache" />
-      <File FileName="LibraryManagement/obj/Release/net7.0/LibraryManagement.csproj.FileListAbsolute.txt" />
-      <File FileName="LibraryManagement/Models/AppDbContext.cs" Line="13" Column="1" />
-      <File FileName="LibraryManagement/Program.cs" Line="21" Column="1" />
+      <File FileName="LibraryManagement/Controllers/LoginController.cs" Line="14" Column="10" />
+      <File FileName="LibraryManagement/Models/LoginViewModel.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LibraryManagement" expanded="True">
+          <Node name="LibraryManagement">
             <Node name="LibraryManagement">
               <Node name="Controllers" expanded="True">
-                <Node name="BooksController.cs" selected="True" />
+                <Node name="LoginController.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Books" expanded="True" />
+                <Node name="Login" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
@@ -53,6 +36,10 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
